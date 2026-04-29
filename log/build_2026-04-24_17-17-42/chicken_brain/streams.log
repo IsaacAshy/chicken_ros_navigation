@@ -1,0 +1,26 @@
+[0.289s] Invoking command in '/workspace/src/chicken_brain': PYTHONPATH=/workspace/build/chicken_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/chicken_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chicken_brain build --build-base /workspace/build/chicken_brain/build install --record /workspace/build/chicken_brain/install.log --single-version-externally-managed install_data
+[0.361s] running egg_info
+[0.362s] writing ../../build/chicken_brain/chicken_brain.egg-info/PKG-INFO
+[0.363s] writing dependency_links to ../../build/chicken_brain/chicken_brain.egg-info/dependency_links.txt
+[0.363s] writing entry points to ../../build/chicken_brain/chicken_brain.egg-info/entry_points.txt
+[0.363s] writing requirements to ../../build/chicken_brain/chicken_brain.egg-info/requires.txt
+[0.364s] writing top-level names to ../../build/chicken_brain/chicken_brain.egg-info/top_level.txt
+[0.367s] reading manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'
+[0.368s] writing manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'
+[0.368s] running build
+[0.369s] running build_py
+[0.369s] copying chicken_brain/navigator.py -> /workspace/build/chicken_brain/build/lib/chicken_brain
+[0.370s] running install
+[0.370s] running install_lib
+[0.372s] copying /workspace/build/chicken_brain/build/lib/chicken_brain/navigator.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain
+[0.373s] byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/navigator.py to navigator.cpython-310.pyc
+[0.375s] running install_data
+[0.375s] running install_egg_info
+[0.376s] removing '/workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info' (and everything under it)
+[0.377s] Copying ../../build/chicken_brain/chicken_brain.egg-info to /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info
+[0.385s] running install_scripts
+[0.395s] Installing logger script to /workspace/install/chicken_brain/lib/chicken_brain
+[0.396s] Installing navigator script to /workspace/install/chicken_brain/lib/chicken_brain
+[0.396s] Installing vision_node script to /workspace/install/chicken_brain/lib/chicken_brain
+[0.397s] writing list of installed files to '/workspace/build/chicken_brain/install.log'
+[0.413s] Invoked command in '/workspace/src/chicken_brain' returned '0': PYTHONPATH=/workspace/build/chicken_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/chicken_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chicken_brain build --build-base /workspace/build/chicken_brain/build install --record /workspace/build/chicken_brain/install.log --single-version-externally-managed install_data

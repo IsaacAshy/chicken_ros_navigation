@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/chicken_brain/chicken_brain.egg-info
+writing ../../build/chicken_brain/chicken_brain.egg-info/PKG-INFO
+writing dependency_links to ../../build/chicken_brain/chicken_brain.egg-info/dependency_links.txt
+writing entry points to ../../build/chicken_brain/chicken_brain.egg-info/entry_points.txt
+writing requirements to ../../build/chicken_brain/chicken_brain.egg-info/requires.txt
+writing top-level names to ../../build/chicken_brain/chicken_brain.egg-info/top_level.txt
+writing manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'
+reading manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'
+writing manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/chicken_brain/build
+creating /workspace/build/chicken_brain/build/lib
+creating /workspace/build/chicken_brain/build/lib/chicken_brain
+copying chicken_brain/__init__.py -> /workspace/build/chicken_brain/build/lib/chicken_brain
+copying chicken_brain/vision_node.py -> /workspace/build/chicken_brain/build/lib/chicken_brain
+copying chicken_brain/navigator.py -> /workspace/build/chicken_brain/build/lib/chicken_brain
+running install
+running install_lib
+creating /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain
+copying /workspace/build/chicken_brain/build/lib/chicken_brain/__init__.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain
+copying /workspace/build/chicken_brain/build/lib/chicken_brain/vision_node.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain
+copying /workspace/build/chicken_brain/build/lib/chicken_brain/navigator.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain
+byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/vision_node.py to vision_node.cpython-310.pyc
+byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/navigator.py to navigator.cpython-310.pyc
+running install_data
+creating /workspace/install/chicken_brain/share/ament_index
+creating /workspace/install/chicken_brain/share/ament_index/resource_index
+creating /workspace/install/chicken_brain/share/ament_index/resource_index/packages
+copying resource/chicken_brain -> /workspace/install/chicken_brain/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/chicken_brain/share/chicken_brain
+running install_egg_info
+Copying ../../build/chicken_brain/chicken_brain.egg-info to /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigator script to /workspace/install/chicken_brain/lib/chicken_brain
+Installing vision_node script to /workspace/install/chicken_brain/lib/chicken_brain
+writing list of installed files to '/workspace/build/chicken_brain/install.log'

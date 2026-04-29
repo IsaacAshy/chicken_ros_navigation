@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.003647] (chicken_brain) JobQueued: {'identifier': 'chicken_brain', 'dependencies': OrderedDict()}
+[0.003961] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.004004] (chicken_brain) JobStarted: {'identifier': 'chicken_brain'}
+[0.009211] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.098586] (-) TimerEvent: {}
+[0.200068] (-) TimerEvent: {}
+[0.303567] (-) TimerEvent: {}
+[0.402930] (chicken_brain) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chicken_brain', 'build', '--build-base', '/workspace/build/chicken_brain/build', 'install', '--record', '/workspace/build/chicken_brain/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/chicken_brain', 'env': {'HOSTNAME': 'cdeec75fc98d', 'SHLVL': '0', 'HOME': '/root', 'OLDPWD': '/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'PWD': '/workspace/build/chicken_brain', 'LC_ALL': 'C.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/workspace/build/chicken_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/chicken_brain/lib/python3.10/site-packages:'}, 'shell': False}
+[0.409527] (-) TimerEvent: {}
+[0.409561] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/workspace/build/ros_tcp_endpoint/build', 'install', '--record', '/workspace/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/ROS-TCP-Endpoint', 'env': {'HOSTNAME': 'cdeec75fc98d', 'SHLVL': '0', 'HOME': '/root', 'OLDPWD': '/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'PWD': '/workspace/build/ros_tcp_endpoint', 'LC_ALL': 'C.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/workspace/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages:'}, 'shell': False}
+[0.469905] (chicken_brain) StdoutLine: {'line': b'running egg_info\n'}
+[0.470395] (chicken_brain) StdoutLine: {'line': b'writing ../../build/chicken_brain/chicken_brain.egg-info/PKG-INFO\n'}
+[0.471112] (chicken_brain) StdoutLine: {'line': b'writing dependency_links to ../../build/chicken_brain/chicken_brain.egg-info/dependency_links.txt\n'}
+[0.471411] (chicken_brain) StdoutLine: {'line': b'writing entry points to ../../build/chicken_brain/chicken_brain.egg-info/entry_points.txt\n'}
+[0.471729] (chicken_brain) StdoutLine: {'line': b'writing requirements to ../../build/chicken_brain/chicken_brain.egg-info/requires.txt\n'}
+[0.472332] (ros_tcp_endpoint) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.473179] (ros_tcp_endpoint) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.473476] (chicken_brain) StdoutLine: {'line': b'writing top-level names to ../../build/chicken_brain/chicken_brain.egg-info/top_level.txt\n'}
+[0.476245] (chicken_brain) StdoutLine: {'line': b"reading manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'\n"}
+[0.478081] (chicken_brain) StdoutLine: {'line': b"writing manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'\n"}
+[0.478380] (chicken_brain) StdoutLine: {'line': b'running build\n'}
+[0.478475] (chicken_brain) StdoutLine: {'line': b'running build_py\n'}
+[0.479219] (chicken_brain) StdoutLine: {'line': b'running install\n'}
+[0.479315] (chicken_brain) StdoutLine: {'line': b'running install_lib\n'}
+[0.479732] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[0.480606] (chicken_brain) StdoutLine: {'line': b'running install_data\n'}
+[0.480952] (ros_tcp_endpoint) StdoutLine: {'line': b'creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info\n'}
+[0.481306] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[0.481808] (chicken_brain) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.482716] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[0.482964] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[0.483219] (chicken_brain) StdoutLine: {'line': b"removing '/workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.483899] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[0.484085] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[0.484282] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.486420] (chicken_brain) StdoutLine: {'line': b'Copying ../../build/chicken_brain/chicken_brain.egg-info to /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info\n'}
+[0.490128] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.491056] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.491571] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.492148] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[0.492465] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[0.492890] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/build/ros_tcp_endpoint/build\n'}
+[0.493664] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/build/ros_tcp_endpoint/build/lib\n'}
+[0.493952] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.494391] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/service.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.494966] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/server.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.495944] (chicken_brain) StdoutLine: {'line': b'running install_scripts\n'}
+[0.496530] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/client.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.497629] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/subscriber.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.498297] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/__init__.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.498955] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/thread_pauser.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.499652] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/unity_service.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.500432] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/tcp_sender.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.501493] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/communication.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.502762] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/exceptions.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.504898] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/publisher.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.505423] (chicken_brain) StdoutLine: {'line': b'Installing navigator script to /workspace/install/chicken_brain/lib/chicken_brain\n'}
+[0.505759] (chicken_brain) StdoutLine: {'line': b'Installing vision_node script to /workspace/install/chicken_brain/lib/chicken_brain\n'}
+[0.506206] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/default_server_endpoint.py -> /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.506572] (chicken_brain) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/chicken_brain/install.log'\n"}
+[0.507868] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[0.508704] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[0.509751] (-) TimerEvent: {}
+[0.510133] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.510760] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.511355] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.514515] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.515068] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.515575] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.516923] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.518338] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.519203] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.519722] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.520102] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.520811] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.523728] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspace/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint\n'}
+[0.524546] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/service.py to service.cpython-310.pyc\n'}
+[0.525499] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py to server.cpython-310.pyc\n'}
+[0.529082] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/client.py to client.cpython-310.pyc\n'}
+[0.530194] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-310.pyc\n'}
+[0.530883] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-310.pyc\n'}
+[0.532475] (chicken_brain) CommandEnded: {'returncode': 0}
+[0.583990] (chicken_brain) JobEnded: {'identifier': 'chicken_brain', 'rc': 0}
+[0.588843] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-310.pyc\n'}
+[0.589294] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-310.pyc\n'}
+[0.589380] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-310.pyc\n'}
+[0.589457] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-310.pyc\n'}
+[0.589531] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-310.pyc\n'}
+[0.589613] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-310.pyc\n'}
+[0.589686] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-310.pyc\n'}
+[0.589759] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[0.589839] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/install/ros_tcp_endpoint/share/ament_index\n'}
+[0.591734] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/install/ros_tcp_endpoint/share/ament_index/resource_index\n'}
+[0.591928] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[0.592062] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /workspace/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[0.592243] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /workspace/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[0.592418] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspace/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[0.592567] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /workspace/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[0.592716] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.592915] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info\n'}
+[0.593075] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[0.593188] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /workspace/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[0.593305] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/ros_tcp_endpoint/install.log'\n"}
+[0.593515] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[0.599975] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[0.600660] (-) EventReactorShutdown: {}

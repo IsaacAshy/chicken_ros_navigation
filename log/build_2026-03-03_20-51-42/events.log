@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000747] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.000860] (chicken_brain) JobQueued: {'identifier': 'chicken_brain', 'dependencies': OrderedDict()}
+[0.000920] (chicken_brain) JobStarted: {'identifier': 'chicken_brain'}
+[0.099835] (-) TimerEvent: {}
+[0.185463] (chicken_brain) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chicken_brain', 'build', '--build-base', '/workspace/build/chicken_brain/build', 'install', '--record', '/workspace/build/chicken_brain/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/chicken_brain', 'env': {'HOSTNAME': 'cdeec75fc98d', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/workspace/install/ros_tcp_endpoint:/workspace/install/chicken_brain', 'PWD': '/workspace/build/chicken_brain', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/chicken_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/chicken_brain/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages:/workspace/install/chicken_brain/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.200824] (-) TimerEvent: {}
+[0.253854] (chicken_brain) StdoutLine: {'line': b'running egg_info\n'}
+[0.254236] (chicken_brain) StdoutLine: {'line': b'creating ../../build/chicken_brain/chicken_brain.egg-info\n'}
+[0.254565] (chicken_brain) StdoutLine: {'line': b'writing ../../build/chicken_brain/chicken_brain.egg-info/PKG-INFO\n'}
+[0.255063] (chicken_brain) StdoutLine: {'line': b'writing dependency_links to ../../build/chicken_brain/chicken_brain.egg-info/dependency_links.txt\n'}
+[0.255405] (chicken_brain) StdoutLine: {'line': b'writing entry points to ../../build/chicken_brain/chicken_brain.egg-info/entry_points.txt\n'}
+[0.255728] (chicken_brain) StdoutLine: {'line': b'writing requirements to ../../build/chicken_brain/chicken_brain.egg-info/requires.txt\n'}
+[0.256063] (chicken_brain) StdoutLine: {'line': b'writing top-level names to ../../build/chicken_brain/chicken_brain.egg-info/top_level.txt\n'}
+[0.256306] (chicken_brain) StdoutLine: {'line': b"writing manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'\n"}
+[0.258092] (chicken_brain) StdoutLine: {'line': b"reading manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'\n"}
+[0.258854] (chicken_brain) StdoutLine: {'line': b"writing manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'\n"}
+[0.259016] (chicken_brain) StdoutLine: {'line': b'running build\n'}
+[0.259179] (chicken_brain) StdoutLine: {'line': b'running build_py\n'}
+[0.259333] (chicken_brain) StdoutLine: {'line': b'creating /workspace/build/chicken_brain/build\n'}
+[0.259782] (chicken_brain) StdoutLine: {'line': b'creating /workspace/build/chicken_brain/build/lib\n'}
+[0.260037] (chicken_brain) StdoutLine: {'line': b'creating /workspace/build/chicken_brain/build/lib/chicken_brain\n'}
+[0.260201] (chicken_brain) StdoutLine: {'line': b'copying chicken_brain/__init__.py -> /workspace/build/chicken_brain/build/lib/chicken_brain\n'}
+[0.260333] (chicken_brain) StdoutLine: {'line': b'copying chicken_brain/vision_node.py -> /workspace/build/chicken_brain/build/lib/chicken_brain\n'}
+[0.260864] (chicken_brain) StdoutLine: {'line': b'copying chicken_brain/navigator.py -> /workspace/build/chicken_brain/build/lib/chicken_brain\n'}
+[0.261981] (chicken_brain) StdoutLine: {'line': b'running install\n'}
+[0.262165] (chicken_brain) StdoutLine: {'line': b'running install_lib\n'}
+[0.262379] (chicken_brain) StdoutLine: {'line': b'creating /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain\n'}
+[0.262623] (chicken_brain) StdoutLine: {'line': b'copying /workspace/build/chicken_brain/build/lib/chicken_brain/__init__.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain\n'}
+[0.263092] (chicken_brain) StdoutLine: {'line': b'copying /workspace/build/chicken_brain/build/lib/chicken_brain/vision_node.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain\n'}
+[0.263576] (chicken_brain) StdoutLine: {'line': b'copying /workspace/build/chicken_brain/build/lib/chicken_brain/navigator.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain\n'}
+[0.264466] (chicken_brain) StdoutLine: {'line': b'byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/__init__.py to __init__.cpython-310.pyc\n'}
+[0.265670] (chicken_brain) StdoutLine: {'line': b'byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/vision_node.py to vision_node.cpython-310.pyc\n'}
+[0.266582] (chicken_brain) StdoutLine: {'line': b'byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/navigator.py to navigator.cpython-310.pyc\n'}
+[0.267250] (chicken_brain) StdoutLine: {'line': b'running install_data\n'}
+[0.267435] (chicken_brain) StdoutLine: {'line': b'creating /workspace/install/chicken_brain/share/ament_index\n'}
+[0.267819] (chicken_brain) StdoutLine: {'line': b'creating /workspace/install/chicken_brain/share/ament_index/resource_index\n'}
+[0.267962] (chicken_brain) StdoutLine: {'line': b'creating /workspace/install/chicken_brain/share/ament_index/resource_index/packages\n'}
+[0.268187] (chicken_brain) StdoutLine: {'line': b'copying resource/chicken_brain -> /workspace/install/chicken_brain/share/ament_index/resource_index/packages\n'}
+[0.268388] (chicken_brain) StdoutLine: {'line': b'copying package.xml -> /workspace/install/chicken_brain/share/chicken_brain\n'}
+[0.268812] (chicken_brain) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.269755] (chicken_brain) StdoutLine: {'line': b'Copying ../../build/chicken_brain/chicken_brain.egg-info to /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info\n'}
+[0.273632] (chicken_brain) StdoutLine: {'line': b'running install_scripts\n'}
+[0.282611] (chicken_brain) StdoutLine: {'line': b'Installing navigator script to /workspace/install/chicken_brain/lib/chicken_brain\n'}
+[0.283088] (chicken_brain) StdoutLine: {'line': b'Installing vision_node script to /workspace/install/chicken_brain/lib/chicken_brain\n'}
+[0.283667] (chicken_brain) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/chicken_brain/install.log'\n"}
+[0.293944] (chicken_brain) CommandEnded: {'returncode': 0}
+[0.301816] (-) TimerEvent: {}
+[0.303135] (chicken_brain) JobEnded: {'identifier': 'chicken_brain', 'rc': 0}
+[0.303849] (-) EventReactorShutdown: {}

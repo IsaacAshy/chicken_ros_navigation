@@ -1,0 +1,5 @@
+[console_scripts]
+logger = chicken_brain.logger_node:main
+navigator = chicken_brain.navigator:main
+vision_node = chicken_brain.vision_node:main
+

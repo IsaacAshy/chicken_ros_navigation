@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000112] (chicken_brain) JobQueued: {'identifier': 'chicken_brain', 'dependencies': OrderedDict()}
+[0.000201] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000240] (chicken_brain) JobStarted: {'identifier': 'chicken_brain'}
+[0.006129] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.100385] (-) TimerEvent: {}
+[0.201226] (-) TimerEvent: {}
+[0.305204] (-) TimerEvent: {}
+[0.311226] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/workspace/build/ros_tcp_endpoint/build', 'install', '--record', '/workspace/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/ROS-TCP-Endpoint', 'env': {'HOSTNAME': 'cdeec75fc98d', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/workspace/build/ros_tcp_endpoint', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.314002] (chicken_brain) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chicken_brain', 'build', '--build-base', '/workspace/build/chicken_brain/build', 'install', '--record', '/workspace/build/chicken_brain/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/chicken_brain', 'env': {'HOSTNAME': 'cdeec75fc98d', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/workspace/build/chicken_brain', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/chicken_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/chicken_brain/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.387045] (ros_tcp_endpoint) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.387619] (ros_tcp_endpoint) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.392186] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[0.392787] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[0.393787] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[0.394188] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[0.394540] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[0.394897] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[0.395986] (chicken_brain) StdoutLine: {'line': b'running egg_info\n'}
+[0.396577] (chicken_brain) StdoutLine: {'line': b'writing ../../build/chicken_brain/chicken_brain.egg-info/PKG-INFO\n'}
+[0.397337] (chicken_brain) StdoutLine: {'line': b'writing dependency_links to ../../build/chicken_brain/chicken_brain.egg-info/dependency_links.txt\n'}
+[0.397921] (chicken_brain) StdoutLine: {'line': b'writing entry points to ../../build/chicken_brain/chicken_brain.egg-info/entry_points.txt\n'}
+[0.398309] (chicken_brain) StdoutLine: {'line': b'writing requirements to ../../build/chicken_brain/chicken_brain.egg-info/requires.txt\n'}
+[0.398688] (chicken_brain) StdoutLine: {'line': b'writing top-level names to ../../build/chicken_brain/chicken_brain.egg-info/top_level.txt\n'}
+[0.399331] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.400208] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.400700] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.401211] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[0.401565] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[0.401957] (chicken_brain) StdoutLine: {'line': b"reading manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'\n"}
+[0.402845] (chicken_brain) StdoutLine: {'line': b"writing manifest file '../../build/chicken_brain/chicken_brain.egg-info/SOURCES.txt'\n"}
+[0.403061] (chicken_brain) StdoutLine: {'line': b'running build\n'}
+[0.403311] (chicken_brain) StdoutLine: {'line': b'running build_py\n'}
+[0.403507] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[0.403697] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[0.404168] (chicken_brain) StdoutLine: {'line': b'copying chicken_brain/vision_node.py -> /workspace/build/chicken_brain/build/lib/chicken_brain\n'}
+[0.404377] (chicken_brain) StdoutLine: {'line': b'copying chicken_brain/navigator.py -> /workspace/build/chicken_brain/build/lib/chicken_brain\n'}
+[0.404957] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[0.405595] (-) TimerEvent: {}
+[0.405666] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.405868] (chicken_brain) StdoutLine: {'line': b'running install\n'}
+[0.406196] (chicken_brain) StdoutLine: {'line': b'running install_lib\n'}
+[0.406613] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[0.406915] (chicken_brain) StdoutLine: {'line': b'copying /workspace/build/chicken_brain/build/lib/chicken_brain/vision_node.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain\n'}
+[0.407284] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspace/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info\n'}
+[0.407857] (chicken_brain) StdoutLine: {'line': b'copying /workspace/build/chicken_brain/build/lib/chicken_brain/navigator.py -> /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain\n'}
+[0.409083] (chicken_brain) StdoutLine: {'line': b'byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/vision_node.py to vision_node.cpython-310.pyc\n'}
+[0.410557] (chicken_brain) StdoutLine: {'line': b'byte-compiling /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain/navigator.py to navigator.cpython-310.pyc\n'}
+[0.411587] (chicken_brain) StdoutLine: {'line': b'running install_data\n'}
+[0.412247] (chicken_brain) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.413011] (chicken_brain) StdoutLine: {'line': b"removing '/workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.413571] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[0.414256] (chicken_brain) StdoutLine: {'line': b'Copying ../../build/chicken_brain/chicken_brain.egg-info to /workspace/install/chicken_brain/lib/python3.10/site-packages/chicken_brain-0.0.0-py3.10.egg-info\n'}
+[0.418358] (chicken_brain) StdoutLine: {'line': b'running install_scripts\n'}
+[0.425176] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /workspace/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[0.426166] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/ros_tcp_endpoint/install.log'\n"}
+[0.430384] (chicken_brain) StdoutLine: {'line': b'Installing navigator script to /workspace/install/chicken_brain/lib/chicken_brain\n'}
+[0.430801] (chicken_brain) StdoutLine: {'line': b'Installing vision_node script to /workspace/install/chicken_brain/lib/chicken_brain\n'}
+[0.431366] (chicken_brain) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/chicken_brain/install.log'\n"}
+[0.441118] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[0.452722] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[0.453907] (chicken_brain) CommandEnded: {'returncode': 0}
+[0.459906] (chicken_brain) JobEnded: {'identifier': 'chicken_brain', 'rc': 0}
+[0.460626] (-) EventReactorShutdown: {}
